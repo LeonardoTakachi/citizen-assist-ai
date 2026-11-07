@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "categoria": "Compras",
+    "titulo": "Desistir de uma compra feita pela internet",
+    "palavras_chave": ["desistir", "arrependimento", "devolver compra", "compra online", "compra pela internet", "cancelar compra"],
+    "resposta": "Se você comprou pela internet ou por telefone, pode desistir da compra em até 7 dias, contados da compra ou do dia em que recebeu o produto. Não precisa dar motivo. O valor pago deve ser devolvido.",
+    "documentos": ["Comprovante da compra (nota fiscal ou e-mail de confirmação)", "Número do pedido"],
+    "onde": "Primeiro, com a própria loja (SAC ou site). Se não resolver, no consumidor.gov.br ou no Procon.",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+    "verificado_em": "2026-11-06"
+  }
+]
