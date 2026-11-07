@@ -9,5 +9,77 @@
     "onde": "Primeiro, com a própria loja (SAC ou site). Se não resolver, no consumidor.gov.br ou no Procon.",
     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
     "verificado_em": "2026-11-06"
+  },
+
+  {
+    "id": 7,
+    "categoria": "Bancos e Pix",
+    "titulo": "Caí em um golpe no Pix",
+    "palavras_chave": ["golpe", "golpe pix", "fraude", "med", "devolucao", "cai em golpe"],
+    "resposta": "Se você enviou um Pix para um golpista, avise seu banco o mais rápido possível, pelo app ou pelo atendimento, e peça a devolução pelo MED (Mecanismo Especial de Devolução). O pedido pode ser feito em até 80 dias depois do Pix. O banco analisa o caso: o MED não garante que o dinheiro volte. Ele também não vale para problema comum de compra, como produto entregue com atraso. Se o banco não resolver, procure a Ouvidoria do banco e depois faça uma reclamação no site do Banco Central.",
+    "documentos": ["Comprovante do Pix (valor, data e hora)", "Prints de conversas, anúncio ou perfil do golpista", "Boletim de ocorrência (recomendado)"],
+    "onde": "No app ou no atendimento do seu banco. Se não resolver: Ouvidoria do banco e reclamação no Banco Central.",
+    "fonte": "https://www.bcb.gov.br/estabilidadefinanceira/pix-seguranca",
+    "verificado_em": "2026-11-06"
+  },
+
+  {
+    "id": 8,
+    "categoria": "Bancos e Pix",
+    "titulo": "Recebi um Pix por engano",
+    "palavras_chave": ["pix errado", "engano", "devolver pix", "pix por engano"],
+    "resposta": "Se você recebeu um Pix que não era seu, não use o dinheiro. Devolva pelo botão 'Devolver', que aparece ao abrir esse Pix no app do seu banco: assim o valor volta para a conta de quem enviou. Não faça um novo Pix para outra conta ou chave, mesmo que alguém peça por mensagem, porque pode ser o golpe do 'Pix errado'. Ficar com o dinheiro pode ser crime pelo Código Penal. Se foi você que enviou por engano, o MED não vale para esse caso: peça a devolução a quem recebeu e avise seu banco.",
+    "documentos": ["Comprovante do Pix recebido (no app do banco)"],
+    "onde": "Botão 'Devolver' dentro do Pix recebido, no app do seu banco.",
+    "fonte": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+    "verificado_em": "2026-11-06"
+  },
+
+  {
+    "id": 9,
+    "categoria": "Bancos e Pix",
+    "titulo": "Descobrir empréstimos ou contas abertas no meu nome",
+    "palavras_chave": ["registrato", "emprestimo", "conta no meu nome", "emprestimo que nao fiz"],
+    "resposta": "O Registrato é um serviço gratuito do Banco Central que mostra em quais bancos você tem ou teve conta e quais empréstimos e financiamentos estão no seu CPF. Entre pelo site do Banco Central (Meu BC) com a sua conta gov.br nível prata ou ouro, com verificação em duas etapas, e consulte os relatórios 'Contas e Relacionamentos em Bancos' e 'Empréstimos e Financiamentos'. Se aparecer algo que você não reconhece, procure o banco ou a financeira responsável e conteste.",
+    "documentos": ["CPF", "Conta gov.br com verificação em duas etapas"],
+    "onde": "Site do Banco Central (Meu BC, área do Registrato), com login gov.br.",
+    "fonte": "https://www.bcb.gov.br/meubc/registrato",
+    "verificado_em": "2026-11-06"
+  },
+
+  {
+    "id": 10,
+    "categoria": "Bancos e Pix",
+    "titulo": "Consultar dinheiro esquecido em bancos",
+    "palavras_chave": ["valores a receber", "dinheiro esquecido", "svr", "dinheiro no banco"],
+    "resposta": "O Valores a Receber (SVR) é o sistema do Banco Central que mostra se existe dinheiro esquecido em bancos, consórcios e outras instituições, como saldo de conta encerrada. A consulta é gratuita: informe seu CPF e data de nascimento no site oficial. Se houver valor, entre com a conta gov.br nível prata ou ouro, com verificação em duas etapas, e peça a devolução. O Banco Central não envia links nem liga para falar de valores a receber: desconfie, pode ser golpe.",
+    "documentos": ["CPF e data de nascimento (para consultar)", "Conta gov.br com verificação em duas etapas (para pedir o valor)"],
+    "onde": "Site valoresareceber.bcb.gov.br, o único site oficial para consultar e pedir esses valores.",
+    "fonte": "https://valoresareceber.bcb.gov.br",
+    "verificado_em": "2026-11-06"
+  },
+
+  {
+    "id": 11,
+    "categoria": "Reclamações",
+    "titulo": "Fui cobrado por algo que não devo",
+    "palavras_chave": ["cobranca indevida", "cobrado errado", "cobranca em dobro", "cobranca"],
+    "resposta": "O Código de Defesa do Consumidor (art. 42) diz que, na cobrança, você não pode ser exposto a ridículo, constrangimento ou ameaça. Se você pagou um valor que não devia, tem direito de receber de volta o dobro do que pagou a mais, com correção e juros, salvo engano justificável da empresa. Primeiro peça à empresa o cancelamento da cobrança e a devolução, e guarde o número do protocolo. Se não resolver, reclame no consumidor.gov.br ou no Procon.",
+    "documentos": ["Fatura, boleto ou comprovante do valor cobrado", "Contrato ou comprovante do que você contratou (se tiver)", "Número de protocolo do atendimento"],
+    "onde": "Primeiro, no SAC da empresa. Se não resolver, no consumidor.gov.br ou no Procon.",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+    "verificado_em": "2026-11-06"
+  },
+
+  {
+    "id": 12,
+    "categoria": "Reclamações",
+    "titulo": "Meu nome foi negativado sem aviso",
+    "palavras_chave": ["nome sujo", "negativado", "serasa", "spc", "negativacao"],
+    "resposta": "Pelo Código de Defesa do Consumidor (art. 43), quando seu nome entra em um cadastro de devedores sem que você tenha pedido, você deve ser avisado por escrito. Se não recebeu esse aviso, ou se a dívida está errada ou já foi paga, peça a correção ou a retirada do seu nome à empresa que fez a negativação. As informações negativas não podem ficar no cadastro por mais de cinco anos. Se a empresa não resolver, procure o Procon ou o consumidor.gov.br.",
+    "documentos": ["Comprovante da compra (nota fiscal ou e-mail de confirmação)", "Número do pedido"],
+    "onde": "Primeiro, com a empresa que negativou. Se não resolver, no Procon ou no consumidor.gov.br.",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+    "verificado_em": "2026-11-06"
   }
 ]
