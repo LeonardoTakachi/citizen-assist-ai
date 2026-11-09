@@ -8,9 +8,63 @@
     "documentos": ["Comprovante da compra (nota fiscal ou e-mail de confirmação)", "Número do pedido"],
     "onde": "Primeiro, com a própria loja (SAC ou site). Se não resolver, no consumidor.gov.br ou no Procon.",
     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
-    "verificado_em": "2026-11-06"
+    "verificado_em": "2026-11-09"
   },
-
+  {
+    "id": 2,
+    "categoria": "Compras",
+    "titulo": "Produto chegou com defeito",
+    "palavras_chave": ["defeito", "com defeito", "quebrado", "estragado", "nao funciona", "conserto", "trocar produto"],
+    "resposta": "A loja e o fabricante têm até 30 dias para consertar o defeito. Se não consertarem nesse prazo, você escolhe: trocar por outro produto igual, receber o dinheiro de volta ou pedir desconto no preço. Para reclamar, o prazo é de 30 dias para produtos não duráveis (como alimentos) e 90 dias para duráveis (como eletrodomésticos), contados da entrega.",
+    "documentos": ["Nota fiscal ou comprovante da compra", "Fotos ou vídeos do defeito", "Número de protocolo do atendimento, se houver"],
+    "onde": "Na loja onde comprou ou na assistência técnica do fabricante. Se não resolver, no consumidor.gov.br ou no Procon.",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 3,
+    "categoria": "Compras",
+    "titulo": "Produto não foi entregue ou atrasou",
+    "palavras_chave": ["nao chegou", "nao entregue", "atraso", "atrasou", "entrega", "pedido atrasado", "prazo de entrega"],
+    "resposta": "Se a loja não cumprir o que prometeu, como entregar no prazo anunciado, você escolhe: exigir a entrega, aceitar outro produto equivalente ou cancelar a compra e receber de volta o valor pago, com correção.",
+    "documentos": ["Comprovante da compra", "Print da oferta ou do prazo de entrega prometido", "Número de protocolo do atendimento, se houver"],
+    "onde": "Primeiro, com a loja (SAC ou site). Se não resolver, no consumidor.gov.br ou no Procon.",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 4,
+    "categoria": "Compras",
+    "titulo": "Diferença entre garantia legal e garantia da loja",
+    "palavras_chave": ["garantia", "garantia legal", "garantia da loja", "garantia do fabricante", "termo de garantia", "prazo de garantia"],
+    "resposta": "A garantia legal vale sempre, mesmo sem nenhum papel: 30 dias para produtos não duráveis e 90 dias para duráveis. A garantia da loja ou do fabricante é um complemento à garantia legal, não a substitui, e deve ser entregue por escrito no termo de garantia.",
+    "documentos": ["Nota fiscal ou comprovante da compra", "Termo de garantia, se houver"],
+    "onde": "Na loja onde comprou ou na assistência técnica indicada no termo de garantia.",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 5,
+    "categoria": "Reclamações",
+    "titulo": "Reclamar pela internet no consumidor.gov.br",
+    "palavras_chave": ["reclamar", "reclamacao", "consumidor gov", "reclamar online", "reclamar da empresa", "empresa nao responde"],
+    "resposta": "O consumidor.gov.br é um serviço público para reclamar direto com a empresa pela internet. Primeiro, veja se a empresa está cadastrada no site. Depois de registrar a reclamação, a empresa tem até 10 dias para responder, e você pode avaliar se o problema foi resolvido.",
+    "documentos": ["Conta gov.br para entrar no site", "Comprovantes do problema (nota fiscal, contrato ou protocolos de atendimento)"],
+    "onde": "Site consumidor.gov.br",
+    "fonte": "https://www.consumidor.gov.br",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 6,
+    "categoria": "Reclamações",
+    "titulo": "Quando e como procurar o Procon",
+    "palavras_chave": ["procon", "reclamar no procon", "denunciar empresa", "orgao de defesa do consumidor", "atendimento procon"],
+    "resposta": "O Procon é o órgão público de defesa do consumidor. Procure o Procon quando não conseguir resolver o problema direto com a empresa. O atendimento é gratuito e pode ser feito pela internet ou presencialmente.",
+    "documentos": ["Documento pessoal com foto", "Comprovantes do problema (nota fiscal, contrato, faturas ou protocolos de atendimento)"],
+    "onde": "Em São Paulo, pelo site do Procon-SP ou em um posto de atendimento. Em outras cidades, procure o Procon local.",
+    "fonte": "https://www.procon.sp.gov.br",
+    "verificado_em": "2026-11-09"
+  },
   {
     "id": 7,
     "categoria": "Bancos e Pix",
@@ -22,7 +76,6 @@
     "fonte": "https://www.bcb.gov.br/estabilidadefinanceira/pix-seguranca",
     "verificado_em": "2026-11-06"
   },
-
   {
     "id": 8,
     "categoria": "Bancos e Pix",
@@ -34,7 +87,6 @@
     "fonte": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
     "verificado_em": "2026-11-06"
   },
-
   {
     "id": 9,
     "categoria": "Bancos e Pix",
@@ -46,7 +98,6 @@
     "fonte": "https://www.bcb.gov.br/meubc/registrato",
     "verificado_em": "2026-11-06"
   },
-
   {
     "id": 10,
     "categoria": "Bancos e Pix",
@@ -58,7 +109,6 @@
     "fonte": "https://valoresareceber.bcb.gov.br",
     "verificado_em": "2026-11-06"
   },
-
   {
     "id": 11,
     "categoria": "Reclamações",
@@ -70,7 +120,6 @@
     "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
     "verificado_em": "2026-11-06"
   },
-
   {
     "id": 12,
     "categoria": "Reclamações",
