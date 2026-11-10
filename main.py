@@ -1,5 +1,4 @@
 # main.py - ponto de entrada do Citizen Assist AI
-
 import os
 
 from base_conhecimento import BaseConhecimento

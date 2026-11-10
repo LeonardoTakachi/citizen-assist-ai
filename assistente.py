@@ -1,6 +1,5 @@
 # assistente.py - classe Assistente
 # Faz o atendimento, guarda o histórico e calcula os indicadores.
-
 import csv
 import json
 import os
