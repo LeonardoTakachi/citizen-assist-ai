@@ -7,12 +7,11 @@ import os
 import time
 from datetime import datetime
 
-# Os caminhos partem da pasta do projeto, assim "python main.py" funciona mesmo se for executado de outro diretório.
 PASTA = os.path.dirname(os.path.abspath(__file__))
 CAMINHO_HISTORICO = os.path.join(PASTA, "data", "historico.json")
 CAMINHO_CSV = os.path.join(PASTA, "data", "atendimentos.csv")
 
-# Limites da confiança (seção 6.2 do enunciado)
+# Limites da confiança
 LIMITE_ALTA = 6    # 6 pontos ou mais -> ALTA
 LIMITE_MEDIA = 3   # 3 a 5 pontos -> MÉDIA; abaixo disso -> "não encontrei"
 MAX_ALTERNATIVAS = 2
