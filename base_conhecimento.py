@@ -53,3 +53,31 @@ class BaseConhecimento:
     def por_categoria(self, categoria):
         """Retorna as orientações de uma categoria."""
         return [o for o in self.orientacoes if o.categoria == categoria]
+
+    def pontuar(self, pergunta, orientacao):
+        """Calcula os pontos de uma orientação para uma pergunta."""
+        pergunta_norm = normalizar(pergunta)
+        titulo_norm = normalizar(orientacao.titulo)
+        pontos = 0
+
+        # Regra 1: +3 para cada palavra-chave que aparece na pergunta
+        for palavra_chave in orientacao.palavras_chave:
+            if normalizar(palavra_chave) in pergunta_norm:
+                pontos += 3
+
+        # Regra 2: +1 para cada palavra da pergunta (4+ letras) que aparece no título
+        for palavra in pergunta_norm.split():
+            if len(palavra) >= 4 and f" {palavra} " in titulo_norm:
+                pontos += 1
+
+        return pontos
+
+    def buscar(self, pergunta):
+        """Retorna uma lista de tuplas (pontos, orientacao), da maior para a menor."""
+        resultados = []
+        for orientacao in self.orientacoes:
+            pontos = self.pontuar(pergunta, orientacao)
+            if pontos > 0:
+                resultados.append((pontos, orientacao))
+        resultados.sort(key=lambda tupla: tupla[0], reverse=True)
+        return resultados
