@@ -119,7 +119,7 @@ A data em que cada orientação foi conferida está no campo `verificado_em` do 
 
 ## 8. Resultado do teste com usuários
 
-Teste com [3] pessoas de fora da equipe, somando 17 atendimentos. Nenhum nome ou dado pessoal dos participantes foi registrado.
+Teste com 3 pessoas de fora da equipe, somando 17 atendimentos. Nenhum nome ou dado pessoal dos participantes foi registrado.
 
 | Indicador | Valor |
 |---|---|
