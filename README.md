@@ -157,7 +157,7 @@ Todas as orientações encontradas foram consideradas úteis pelos participantes
 
 ## 10. Vídeo técnico
 
-Link: [PREENCHER]
+Link: https://youtu.be/yj-68ofaqAo
 
 ## Decisões técnicas
 
