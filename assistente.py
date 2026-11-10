@@ -119,6 +119,10 @@ class Assistente:
                     print("Digite sua dúvida ou 0 para voltar.")
                     continue
 
+                if len(pergunta) < 3:
+                    print("Escreva sua dúvida com um pouco mais de detalhes (ou 0 para voltar).")
+                    continue
+
                 if self.contem_dado_pessoal(pergunta):
                     # não conta como tentativa e não é registrada
                     print("Atenção: não digite CPF, telefone ou e-mail. Reescreva.")

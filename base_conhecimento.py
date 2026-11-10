@@ -8,7 +8,12 @@ from orientacao import Orientacao
 PASTA_DO_PROJETO = os.path.dirname(os.path.abspath(__file__))
 
 ACENTOS = {"á": "a", "à": "a", "ã": "a", "â": "a", "é": "e", "ê": "e",
-           "í": "i", "ó": "o", "õ": "o", "ô": "o", "ú": "u", "ç": "c"}
+           "í": "i", "ó": "o", "õ": "o", "ô": "o", "ú": "u", "ç": "c",
+           "è": "e", "ì": "i", "ò": "o", "ù": "u", "ü": "u", "î": "i",
+           "û": "u", "ñ": "n"}
+
+# Sinais trocados por espaço: pontuação comum, aspas, hífen, barra e reticências (…)
+SINAIS = "?!.,;:()'\"-/…"
 
 
 def normalizar(texto):
@@ -16,7 +21,7 @@ def normalizar(texto):
     texto = texto.lower().strip()
     for letra, troca in ACENTOS.items():
         texto = texto.replace(letra, troca)
-    for sinal in "?!.,;:()":
+    for sinal in SINAIS:
         texto = texto.replace(sinal, " ")
     return " " + " ".join(texto.split()) + " "
 
@@ -42,6 +47,8 @@ class BaseConhecimento:
             print("Erro: a base de conhecimento não foi encontrada.")
         except json.JSONDecodeError:
             print("Erro: a base de conhecimento está corrompida (JSON inválido).")
+        except UnicodeDecodeError:
+            print("Erro: a base de conhecimento não está em UTF-8.")
         except TypeError:
             print("Erro: alguma orientação da base está com campos faltando ou a mais.")
         return False
