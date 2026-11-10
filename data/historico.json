@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "data": "2026-11-09 21:15:04",
+    "sessao": "2026-11-09 21:14:20",
+    "origem": "pergunta",
+    "pergunta": "Recebi um pix por engano",
+    "id_orientacao": 8,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 38.3,
+    "facilidade": 5
+  }
+]
